@@ -1,0 +1,43 @@
+.container {
+  position: relative;
+  height: 100vh;
+}
+.qncard {
+  position: absolute;
+  background-color: rgb(255, 196, 0);
+  top: 25%;
+  width: 15rem;
+  left: 40%;
+  padding: 3%;
+  border-radius: 5px;
+}
+.h3style {
+  background-color: rgb(255, 196, 0);
+}
+.btn {
+  border-radius: 5px;
+  border-style: none;
+  background-color: rgb(20, 175, 236);
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 4%;
+  display: flex;
+  align-self: flex-start;
+  font-weight: bold;
+}
+.btn1 {
+  border-radius: 5px;
+  border-style: none;
+  background-color: rgb(20, 236, 56);
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 4%;
+  display: flex;
+  /* align-self: center; */
+  justify-content: center;
+  font-weight: bold;
+}
